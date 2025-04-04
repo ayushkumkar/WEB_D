@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const divv = document.createElement('div')
+    console.log(divv);
+    divv.className = "divClass"
+    divv.id = 'divId'
+    divv.setAttribute("title" , "divTitle")
+    divv.style.backgroundColor = "red"
+    divv.style.color = "white"
+    divv.style.padding = "12px"
+    divv.innerHTML = "Chai aur codee"
+
+    //last step
+    document.body.appendChild(divv) //dont forget to add body after document
+</script>
+</html>
