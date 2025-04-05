@@ -1,0 +1,22 @@
+#clock{
+    background-color: rgb(2, 255, 141);
+    height: 50px;
+    width: 170px;
+}
+
+body{
+    background-color : #212121;
+    color: white;
+    
+}
+.center {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+    height: 80vh;           /* full height of the viewport */
+}
+
+.banner{
+    font-size: 30px;
+    
+}
